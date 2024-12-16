@@ -1,9 +1,11 @@
 import "./styles.css";
 
-import image1 from "./image1.jpg";
-
-const image = document.createElement("img");
-image.src = image1;
 console.log("Hello!!");
 
-document.body.appendChild(image);
+const h1 = document.createElement("h1");
+h1.textContent = "Urban Cuisine";
+const p = document.createElement("p");
+p.textContent = "Five star eats in the centre of town";
+content = document.getElementById("content");
+content.appendChild(h1);
+content.appendChild(p);
